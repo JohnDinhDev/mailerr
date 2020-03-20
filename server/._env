@@ -1,0 +1,11 @@
+##########################
+###### Instructions ######
+##########################
+
+# 1. Rename this file to .env
+# 2. Assign missing values. Example: SECRETKEY=yourValueHere
+
+######################
+## Node Port Number ##
+######################
+PORT=5000
