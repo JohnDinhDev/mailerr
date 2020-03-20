@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  database:
+    image: mongo
+    container_name: "mongodb"
+    ports:
+      - "27017-27019"
+    volumes:
+      - ./mongodb/data:/data/db
+  server:
+    env_file: ./server/.env
+    build: ./server/
+    container_name: "express-server"
+    ports:
+      - "5000:5000"
