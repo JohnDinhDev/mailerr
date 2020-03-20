@@ -9,3 +9,10 @@
 ## Node Port Number ##
 ######################
 PORT=5000
+
+##############################
+## Google oAuth Credentials ##
+##############################
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_CALLBACK_URL=
