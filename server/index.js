@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 
+// REMOVE WHEN DEPLOYING
+require("dotenv").config();
+
 // Environment Variables
 const PORT = process.env.PORT;
 
