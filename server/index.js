@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 
+// REMOVE WHEN DEPLOYING
+require("dotenv").config();
+
 // Passport Config
 require("./services/passport");
 

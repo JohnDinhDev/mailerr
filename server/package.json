@@ -9,6 +9,10 @@
     "passport-google-oauth20": "^2.0.0"
   },
   "scripts": {
-    "start": "node index"
+    "start": "nodemon index"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
   }
 }
