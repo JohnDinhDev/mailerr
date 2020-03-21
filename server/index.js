@@ -4,12 +4,13 @@ const app = express();
 // REMOVE WHEN DEPLOYING
 require("dotenv").config();
 
+// Passport Config
+require("./services/passport");
+
 // Environment Variables
 const PORT = process.env.PORT;
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
+app.use("/auth", require("./routes/api/auth"));
 
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
