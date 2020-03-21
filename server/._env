@@ -10,6 +10,15 @@
 ######################
 PORT=5000
 
+#############
+## MongoDB ##
+#############
+
+# mongodb://localhost:27017/yourDbHere is for development
+# Change MONGO_URI to 'mongodb://database:27017/yourDbHere' for deployment
+
+MONGO_URI=mongodb://localhost:27017/mailerr
+
 ##############################
 ## Google oAuth Credentials ##
 ##############################
