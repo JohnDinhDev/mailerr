@@ -29,4 +29,24 @@ router.get(
   }
 );
 
+/**
+ * @route GET api/auth/current_user
+ * @desc Returns current logged in user
+ * @access Public
+ */
+router.get("/current_user", (req, res) => {
+  // TODO return user as json
+  res.send(req.user);
+});
+
+/**
+ * @route GET api/auth/logout
+ * @desc Logs out current user
+ * @access Public
+ */
+router.get("/logout", (req, res) => {
+  req.logout();
+  res.send(req.user);
+});
+
 module.exports = router;

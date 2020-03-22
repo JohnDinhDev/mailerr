@@ -1,6 +1,9 @@
 // REMOVE WHEN DEPLOYING
 require("dotenv").config();
 
+// Models
+require("./models/User");
+
 const mongoose = require("mongoose");
 const uri = process.env.MONGO_URI;
 
