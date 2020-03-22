@@ -3,7 +3,7 @@
 ##########################
 
 # 1. Rename this file to .env
-# 2. Assign missing values. Example: SECRETKEY=yourValueHere
+# 2. Assign missing values. Example: SECRET_KEY=yourValueHere
 
 ######################
 ## Node Port Number ##
@@ -25,3 +25,8 @@ MONGO_URI=mongodb://localhost:27017/mailerr
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 GOOGLE_CALLBACK_URL=
+
+####################
+## Cookie Session ##
+####################
+COOKIE_KEY=
